@@ -37,49 +37,174 @@
   }
 }
 
-@keyframes moveHeart1 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(300px, 150px); }
-  100% { transform: translate(0, 0); }
-}
-
-@keyframes moveHeart2 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(-200px, -100px); }
-  100% { transform: translate(0, 0); }
-}
-
-@keyframes moveHeart3 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(100px, 200px); }
-  100% { transform: translate(0, 0); }
-}
-
-@keyframes moveHeart4 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(-150px, 300px); }
-  100% { transform: translate(0, 0); }
-}
-
-@keyframes moveHeart5 {
-  0% { transform: translate(0, 0); }
-  50% { transform: translate(0px, -100px); }
-  100% { transform: translate(0, 0); }
-}
-
-/* Heart styling */
-.heart {
-  width: 40px;
-  height: 40px;
+.star {
+  width: 70px;
+  height: 70px;
   background-color: pink;
-  clip-path: polygon(60% 40%, 80% 0%, 90% 40%, 60% 100%, 0% 70%, 10% 30%);
-  animation-duration: 5s;
-  animation-timing-function: step-start;
+  clip-path: polygon(50% 0%, 61% 35%, 98% 35%, 68% 57%, 79% 91%, 50% 70%, 21% 91%, 32% 57%, 2% 35%, 39% 35%);
+  position: absolute;
+  opacity: 0.8;
+  z-index: -1;
+}
+
+
+/* Unique floating animations for each star */
+.animate-star1 {
+  animation-name: floatStar1;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
   animation-iteration-count: infinite;
 }
 
-.animate-heart1 { animation: moveHeart1 5s infinite; }
-.animate-heart2 { animation: moveHeart2 6s infinite; }
-.animate-heart3 { animation: moveHeart3 7s infinite; }
-.animate-heart4 { animation: moveHeart4 8s infinite; }
-.animate-heart5 { animation: moveHeart5 9s infinite; }
+.animate-star2 {
+  animation-name: floatStar2;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-star3 {
+  animation-name: floatStar3;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-star4 {
+  animation-name: floatStar4;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-star5 {
+  animation-name: floatStar5;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-star6 {
+  animation-name: floatStar6;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-star7 {
+  animation-name: floatStar7;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+.animate-star8 {
+  animation-name: floatStar8;
+  animation-duration: 1s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+}
+
+/* Random continuous floating animation for star 1 */
+@keyframes floatStar1 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+/* Random continuous floating animation for star 2 */
+@keyframes floatStar2 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+/* Random continuous floating animation for star 3 */
+@keyframes floatStar3 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+/* Random continuous floating animation for star 4 */
+@keyframes floatStar4 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+/* Random continuous floating animation for star 5 */
+@keyframes floatStar5 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+@keyframes floatStar6 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+@keyframes floatStar7 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+@keyframes floatStar8 {
+  0% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Random position on the screen */
+  }
+  50% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5)));
+  }
+  100% {
+    transform: translate(calc(100vw * (100 - 0.5)), calc(100vh * (100 - 0.5))); /* Continually randomize */
+  }
+}
+
+
+

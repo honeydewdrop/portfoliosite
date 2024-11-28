@@ -1,0 +1,29 @@
+li {
+    position: relative; /* Required for positioning the tooltip */
+    display: list-item; /* Ensures the bullet point appears */
+    list-style-type: disc; /* Default bullet style */
+    margin-left: 20px; /* Adds spacing between bullet points and text */
+  }
+  /* Tooltip styling */
+  .tooltip {
+    display: none; /* Hidden by default */
+    position: absolute;
+    bottom: 100%; /* Position above the list item */
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #333; /* Dark background for the tooltip */
+    color: #fff; /* White text */
+    padding: 5px 10px;
+    border-radius: 5px;
+    white-space: nowrap;
+    font-size: 12px;
+    z-index: 10;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    opacity: .8;
+  }
+  
+  /* Show the tooltip on hover */
+  li:hover .tooltip {
+    display: block;
+  }
+  
