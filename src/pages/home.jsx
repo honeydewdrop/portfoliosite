@@ -30,15 +30,7 @@ const Home = () => {
 
   return (
     <div
-    className={`min-h-screen text-white flex flex-col justify-center items-center relative`}
-    style={{
-      backgroundImage: `
-        linear-gradient(to right, #ff7eb9, #feb2ff, #63b3ed), 
-        linear-gradient(to bottom, rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
-        url("jayceviktorhands.webp")`,
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-    }}
+    className={`min-h-screen bg-gradient-to-r from-pink-500 via-blue-200 to-green-200 text-white flex flex-col justify-center items-center relative`}
     >
       <header
         className="text-6xl font-Ubuntu text-center mb-6 text-pink-400"
@@ -82,6 +74,12 @@ const Home = () => {
       >
         I'm Samantha Adams, a 3rd-year computer science (& geosciences) student
         at the College of the Holy Cross in Worcester, MA.
+      </div>
+      <div
+        className="text-gray-500 text-2xl text-center mt-1 mb-4"
+        style={{ zIndex: 1 }}
+      >
+        Income SWE intern @ Pantex.
       </div>
       <div
         className="text-gray-500 text-3xl text-center"
