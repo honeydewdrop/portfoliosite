@@ -98,8 +98,7 @@ const Home = () => {
         className="text-gray-500 text-2xl text-center mt-5 mb-6"
         style={{ zIndex: 1 }}
       >
-        I'm dedicated to learning new technical skills and putting them forth
-        for social good.
+        I'm dedicated to learning new technical skills - what I'd like to learn next: .NET with C#.
       </div>
       <div className="text-gray-500" style={{ zIndex: 0}}>
         <i className="devicon-python-plain text-6xl mr-5"></i>
