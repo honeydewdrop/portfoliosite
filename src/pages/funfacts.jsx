@@ -16,7 +16,7 @@ function FunFacts() {
         <div className="text-gray-500 text-3xl text-center mb-4 relative" style={{ zIndex: 1 }}>
           Here are some interesting facts about me:
         </div>
-        <ul className="text-gray-500 text-3xl text-center list-disc list-inside relative" style={{ zIndex: 1 }}>
+        <ul className="text-gray-500 text-xl text-center list-disc list-inside relative" style={{ zIndex: 1 }}>
           <li>I am an only child.</li>
           <li>I collect pens and pencils.</li>
           <li>I am originally from rural Arizona.</li>

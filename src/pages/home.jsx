@@ -40,27 +40,27 @@ const Home = () => {
         </a>
       </div>
       <div
-        className="text-gray-500 text-l text-center mb-5 mt-3"
+        className="text-gray-500 text-xl text-center mb-5 mt-3"
         style={{ zIndex: 1 }}
       >
         I am a 3rd-year computer science (& geosciences) student
         at the College of the Holy Cross in Worcester, MA.
       </div>
       <div
-        className="text-gray-500 text-l text-center"
+        className="text-gray-500 text-xl text-center"
         style={{ zIndex: 1 }}
       >
         ⋆｡°✩⋆｡°✩⋆｡°✩⋆｡°✩
       </div>
       <div
-        className="text-gray-500 text-l text-center mt-5"
+        className="text-gray-500 text-xl text-center mt-5"
         style={{ zIndex: 1 }}
       >
         I am interested in a career in software engineering. I enjoy both
         front-end & back-end work.
       </div>
       <div
-        className="text-gray-500 text-l text-center mt-5 mb-6"
+        className="text-gray-500 text-xl text-center mt-5 mb-6"
         style={{ zIndex: 1 }}
       >
         I'm dedicated to learning new technical skills - what I'd like to learn next: .NET with C#, AWS, MySQL.
@@ -105,7 +105,7 @@ const Home = () => {
         </div>
       </div>
       <div
-        className="text-gray-500 text-xl text-center mb-5 mt-3"
+        className="text-gray-500 text-l text-center mb-5 mt-3"
         style={{ zIndex: 1 }}
       >
        Made with JavaScript + React
