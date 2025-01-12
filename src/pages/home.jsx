@@ -99,7 +99,7 @@ const Home = () => {
           <i className="devicon-github-original text-4xl mr-5"></i>
         </a>
         <div className="text-4xl mt-0.5 mr-4">
-          <a href="mailto:samanthaadams200311@gmail.com" target="_blank" rel="noopener noreferrer">
+          <a href="mailto:samanthaadamsSMA@gmail.com" target="_blank" rel="noopener noreferrer">
             <HiOutlineMail />
           </a>
         </div>
