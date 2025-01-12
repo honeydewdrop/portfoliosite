@@ -76,14 +76,14 @@ function Projects() {
         <>
           <header className="text-white-500 text-6xl mb-3">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
-            BearChat
+            PlayVault
           </header>
           <i className="devicon-django-plain text-4xl ml-2 mb-2"></i>
           <i className="devicon-postgresql-plain text-4xl ml-5 mb-2"></i>
           <i className="devicon-jira-plain text-4xl ml-5 mb-2"></i>
-          <li>I'm currently working with another teammate on this in a software engineering project course.</li>
-          <li>I'm using IDGB's database to get information about ~286,000 games and storing them locally in a PostgreSQL database.</li>
-          <li>I'm creating stories on Jira for my teammate and I and working in 2-week sprints, Agile style.</li>
+          <li>I worked with another teammate on this in a software engineering project course.</li>
+          <li>I used IDGB's database to get information about ~286,000 games and storing them locally in a PostgreSQL database.</li>
+          <li>I created stories on Jira for my teammate and I and working in 2-week sprints, Agile style.</li>
           <div className="mt-3 mb-2 hover:underline">
             <a href="https://github.com/honeydewdrop/BearChat-site">Github repository</a>
           </div>

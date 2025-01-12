@@ -19,9 +19,8 @@ function FunFacts() {
         <ul className="text-gray-500 text-3xl text-center list-disc list-inside relative" style={{ zIndex: 1 }}>
           <li>I am an only child.</li>
           <li>I collect pens and pencils.</li>
-          <li>My favorite show is Arcane.</li>
           <li>I am originally from rural Arizona.</li>
-          <li>I am MBTI INTJ-T and Enneagram 6w5.
+          <li><u>I am MBTI INTP-T and Enneagram 6w5.</u>
           <span className="tooltip">I share these traits with Killua (Hunter x Hunter), Kakashi (Naruto), & Heimerdinger (Arcane/League of Legends).</span>
           </li>
           <li>My favorite video games include League of Legends, The Legend of Zelda: Breath of the Wild, and Final Fantasy 6.</li>
