@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
+import { MdOutlineEmail } from "react-icons/md";
 
 const Home = () => {
 
@@ -99,6 +100,7 @@ const Home = () => {
         </a>
         <div className="text-4xl mt-0.5 mr-4">
           <a href="mailto:samanthaadamsSMA@gmail.com" target="_blank" rel="noopener noreferrer">
+            <MdOutlineEmail />
           </a>
         </div>
       </div>
