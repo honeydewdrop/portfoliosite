@@ -22,12 +22,13 @@ function Projects() {
       image: "/pantrytoplatesample.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-3">
+          <header className="text-white-500 text-6xl mb-5">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             Pantry to Plate
           </header>
-          <i className="devicon-csharp-plain text-4xl mb-2"></i>
-          <i className="devicon-unity-plain text-4xl ml-5 mb-2"></i>
+          <i className="devicon-csharp-plain text-4xl ml-5 mb-2"></i>
+          <i class="devicon-dotnetcore-plain text-4xl ml-5 mb-2"></i>
+          <i class="devicon-blazor-original text-4xl ml-5 mb-2"></i>
           <li>This was a project for CSCI324 Programming Languages: Design & Implementation with two teammates.</li>
           <li>We used Spoonacular API to make GET requests asynchronously for recipe info.</li>
           <li>Our front-end was made with Blazor and we filtered what data was displayed with LINQ.</li>
@@ -95,7 +96,7 @@ function Projects() {
       image: "/PlayVaultDemo.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-3">
+          <header className="text-white-500 text-6xl mb-4">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             PlayVault
           </header>
