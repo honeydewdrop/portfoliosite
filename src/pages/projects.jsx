@@ -161,10 +161,10 @@ function Projects() {
         <div
           style={{
             position: "fixed",
-            top: 250,
-            left: 500,
+            top: "20vh",
+            left: "45vh",
             width: "50%",
-            height: "50%",
+            height: "55%",
             backgroundColor: "rgba(0, 0, 0, 0.8)",
             zIndex: 10,
           }}
