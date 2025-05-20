@@ -18,6 +18,27 @@ function Projects() {
   const projects = [
     {
       id: 1,
+      name: "Pantry to Plate",
+      image: "/pantrytoplatesample.png",
+      description: (
+        <>
+          <header className="text-white-500 text-6xl mb-3">
+            <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
+            Pantry to Plate
+          </header>
+          <i className="devicon-csharp-plain text-4xl mb-2"></i>
+          <i className="devicon-unity-plain text-4xl ml-5 mb-2"></i>
+          <li>This was a project for CSCI324 Programming Languages: Design & Implementation with two teammates.</li>
+          <li>We used Spoonacular API to make GET requests asynchronously for recipe info.</li>
+          <li>Our front-end was made with Blazor and we filtered what data was displayed with LINQ.</li>
+          <div className="mt-3 mb-2 hover:underline">
+            <a href="https://github.com/honeydewdrop/recipes">Github repository</a>
+          </div>
+        </>
+      ),
+    },
+    {
+      id: 1,
       name: "Althea",
       image: "/AltheaDemo.png",
       description: (
@@ -36,7 +57,7 @@ function Projects() {
             <i className="devicon-django-plain text-4xl ml-5"></i>
             <i className="devicon-flutter-plain text-4xl ml-5"></i>
           </ul>
-          <li>I collaborated with 3 teammates to create this app, and we were on the patient safety track.</li>
+          <li>I collaborated with 3 teammates to create this app at HackHarvard 2024 and we were on the patient safety track.</li>
           <li>Drug data was parsed from the official FDA website using Google Cloud SDK's Gemini for accurate information.</li>
           <li>After wrapping up the front-end, I helped test the API endpoints with Postman.</li>
           <div className="mt-3 mb-2 hover:underline">
@@ -46,7 +67,7 @@ function Projects() {
       ),
     },
     {
-      id: 2,
+      id: 3,
       name: "BearChat",
       image: "/bearChatDemo.png",
       description: (
@@ -61,7 +82,7 @@ function Projects() {
           <i className="devicon-mongodb-plain text-4xl ml-5 mb-2"></i>
           <li>This was my first web/full-stack project that I did to learn new things over summer 2024.</li>
           <li>Created a real-time messaging app with user authentication and live status updates using Socket.io.</li>
-          <li>Used MongoDB for data storage and Express.js for the backend API.</li>
+          <li>Used MongoDB for data storage and Express.js for the backend.</li>
           <div className="mt-3 mb-2 h hover:underline">
             <a href="https://github.com/honeydewdrop/BearChat-site">Github repository</a>
           </div>
@@ -69,7 +90,7 @@ function Projects() {
       ),
     },
     {
-      id: 3,
+      id: 4,
       name: "PlayVault",
       image: "/PlayVaultDemo.png",
       description: (
@@ -91,7 +112,7 @@ function Projects() {
       ),
     },
     {
-      id: 4,
+      id: 5,
       name: "FPS Game",
       image: "/FPSGameDemo.png",
       description: (
@@ -124,7 +145,7 @@ function Projects() {
       >
         {"Home"}
       </Link>
-      <div className="grid grid-cols-2 gap-4 mt-6">
+      <div className="grid grid-cols-2 gap-2 mt-6">
         {projects.map((project) => (
           <div key={project.id} className="relative">
             <img
@@ -147,7 +168,6 @@ function Projects() {
             backgroundColor: "rgba(0, 0, 0, 0.8)",
             zIndex: 10,
           }}
-          onClick={off}
         >
           <div
             style={{

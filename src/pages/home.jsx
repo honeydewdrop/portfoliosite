@@ -31,7 +31,7 @@ const Home = () => {
           {"My Projects"}
         </Link>
         <a
-          href="/Samantha Adams Resume.pdf"
+          href="/SamanthaAdamsResume2025.pdf"
           target="_blank"
           className="text-sm font-mono hover:underline hover:text-amber-700 mt-1 mr-5 ml-5 inline-block px-4 py-2 bg-cyan-500 text-white rounded-md hover:bg-pink-200 focus:outline-none focus:ring-2 focus:ring-white-300"
           style={{ zIndex: 1 }}
@@ -56,22 +56,29 @@ const Home = () => {
         className="text-gray-500 text-xl text-center mt-5"
         style={{ zIndex: 1 }}
       >
-        I am interested in a career in software engineering. I enjoy both
-        front-end & back-end work.
+        <p>I am a summer 2025 intern at The Hanover Insurance Group with the application engineering team.</p>
+        <p>Here, I am working with Java + Spring and JavaScript + React.</p>
+      </div>
+      <div
+        className="text-gray-500 text-xl text-center mt-5"
+        style={{ zIndex: 1 }}
+      >
+        <p>I am particularly interested in ClimateTech, EdTech, E-Commerce and gaming industry enterprise application opportunities.</p>
       </div>
       <div
         className="text-gray-500 text-xl text-center mt-5 mb-6"
         style={{ zIndex: 1 }}
       >
-        I'm dedicated to learning new technical skills - what I'd like to learn next: .NET with C#, AWS, MySQL.
+        I'm dedicated to learning new technical skills -- what I'd like to learn next: AWS, CI/CD.
       </div>
       <div className="text-gray-500" style={{ zIndex: 0 }}>
-        <i className="devicon-python-plain text-6xl mr-5"></i>
+        <i className="devicon-python-plain text-6xl mr-3"></i>
+        <i class="devicon-django-plain text-6xl mr-3.5"></i>
         <i className="devicon-javascript-plain text-6xl mr-5"></i>
-        <i className="devicon-cplusplus-plain text-6xl mr-5"></i>
         <i className="devicon-react-original text-6xl mr-3"></i>
+        <i class="devicon-csharp-plain text-6xl mr-3"></i>
+        <i class="devicon-dotnetcore-plain text-6xl mr-3"></i>
         <i className="devicon-java-plain text-6xl mr-0.5"></i>
-        <i className="devicon-mongodb-plain text-6xl"></i>
       </div>
       <div className="flex flex-row" style={{ zIndex: 1 }}>
         <div className="w-56 h-56 overflow-hidden rounded-full mt-5">
