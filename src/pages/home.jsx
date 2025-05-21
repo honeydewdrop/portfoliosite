@@ -6,7 +6,7 @@ const Home = () => {
 
   return (
     <div
-      className="min-h-screen bg-gradient-to-r from-pink-500 via-blue-200 to-green-200 text-white flex flex-col justify-center items-center relative"
+      className="min-h-screen w-full bg-gradient-to-r from-pink-500 via-blue-200 to-green-200 text-white flex flex-col justify-center items-center relative"
     >
       <header
         className="text-6xl font-Ubuntu text-center mb-6 text-pink-400"
@@ -15,20 +15,20 @@ const Home = () => {
         <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
         Samantha Adams
       </header>
-      <div className="flex-row" style={{ zIndex: 1 }}>
+      <div className="flex-row w-100" style={{ zIndex: 1 }}>
         <Link
           to={"/fun-facts"}
           className="text-sm font-mono hover:underline hover:text-amber-700 mt-1 mr-5 inline-block px-4 py-2 bg-cyan-500 text-white rounded-md hover:bg-pink-200 focus:outline-none focus:ring-2 focus:ring-white-300"
           style={{ zIndex: 1 }}
         >
-          {"Fun Facts About Me"}
+          {"Fun Facts"}
         </Link>
         <Link
           to={"/my-projects"}
           className="text-sm font-mono hover:underline hover:text-amber-700 mt-1 inline-block px-4 py-2 bg-cyan-500 text-white rounded-md hover:bg-pink-200 focus:outline-none focus:ring-2 focus:ring-white-300"
           style={{ zIndex: 1 }}
         >
-          {"My Projects"}
+          {"Projects"}
         </Link>
         <a
           href="/SamanthaAdamsResume2025.pdf"
@@ -57,7 +57,7 @@ const Home = () => {
         style={{ zIndex: 1 }}
       >
         <p>I am a summer 2025 intern at The Hanover Insurance Group with the application engineering team.</p>
-        <p>Here, I am working with Java + Spring and JavaScript + React.</p>
+        <p>Here, I am working with Java + Spring Boot and JavaScript + React.</p>
       </div>
       <div
         className="text-gray-500 text-xl text-center mt-5"
@@ -71,25 +71,25 @@ const Home = () => {
       >
         I'm dedicated to learning new technical skills -- what I'd like to learn next: AWS, CI/CD.
       </div>
-      <div className="text-gray-500" style={{ zIndex: 0 }}>
-        <i className="devicon-python-plain text-6xl mr-3"></i>
-        <i class="devicon-django-plain text-6xl mr-3.5"></i>
-        <i className="devicon-javascript-plain text-6xl mr-5"></i>
-        <i className="devicon-react-original text-6xl mr-3"></i>
-        <i class="devicon-csharp-plain text-6xl mr-3"></i>
-        <i class="devicon-dotnetcore-plain text-6xl mr-3"></i>
-        <i className="devicon-java-plain text-6xl mr-0.5"></i>
+      <div className="w-auto text-gray-500" style={{ zIndex: 0 }}>
+        <i className="devicon-python-plain text-5xl mr-2"></i>
+        <i class="devicon-django-plain text-5xl mr-2"></i>
+        <i className="devicon-javascript-plain text-5xl mr-2"></i>
+        <i className="devicon-react-original text-5xl mr-2"></i>
+        <i class="devicon-csharp-plain text-5xl mr-2"></i>
+        <i class="devicon-dotnetcore-plain text-5xl mr-2"></i>
+        <i className="devicon-java-plain text-5xl"></i>
       </div>
       <div className="flex flex-row" style={{ zIndex: 1 }}>
-        <div className="w-56 h-56 overflow-hidden rounded-full mt-5">
+        <div className="w-56 h-56 overflow-x-hidden rounded-full mt-5">
           <img
             src="/meportfolio.png"
             alt="Samantha Adams"
-            className="w-full h-full object-cover"
+            className="w-full h-full object-cover ml-2"
           />
         </div>
         <div
-          className="w-56 h-56 overflow-hidden mt-5"
+          className="w-50 h-full overflow-hidden mt-5"
           style={{ zIndex: 1 }}
         >
           <img

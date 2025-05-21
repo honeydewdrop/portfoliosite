@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import { MdFormatAlignJustify } from "react-icons/md";
 import { Link } from "react-router-dom";
 
 function Projects() {
@@ -22,16 +23,16 @@ function Projects() {
       image: "/pantrytoplatesample.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-5">
+          <header className="text-white-500 mb-5 text-6xl mt-10">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             Pantry to Plate
           </header>
           <i className="devicon-csharp-plain text-4xl ml-5 mb-2"></i>
           <i class="devicon-dotnetcore-plain text-4xl ml-5 mb-2"></i>
           <i class="devicon-blazor-original text-4xl ml-5 mb-2"></i>
-          <li>This was a project for CSCI324 Programming Languages: Design & Implementation with two teammates.</li>
-          <li>We used Spoonacular API to make GET requests asynchronously for recipe info.</li>
-          <li>Our front-end was made with Blazor and we filtered what data was displayed with LINQ.</li>
+          <li className="text-center mx-auto">This was a project for CSCI324 Programming Languages: Design & Implementation with two teammates.</li>
+          <li className="text-center mx-auto">We used Spoonacular API to make GET requests asynchronously for recipe info.</li>
+          <li className="text-center mx-auto">Our front-end was made with Blazor and we filtered what data was displayed with LINQ.</li>
           <div className="mt-3 mb-2 hover:underline">
             <a href="https://github.com/honeydewdrop/recipes">Github repository</a>
           </div>
@@ -44,7 +45,7 @@ function Projects() {
       image: "/AltheaDemo.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-3">
+          <header className="text-white-500 text-6xl mb-3 mt-10">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             Althea
           </header>
@@ -58,9 +59,9 @@ function Projects() {
             <i className="devicon-django-plain text-4xl ml-5"></i>
             <i className="devicon-flutter-plain text-4xl ml-5"></i>
           </ul>
-          <li>I collaborated with 3 teammates to create this app at HackHarvard 2024 and we were on the patient safety track.</li>
-          <li>Drug data was parsed from the official FDA website using Google Cloud SDK's Gemini for accurate information.</li>
-          <li>After wrapping up the front-end, I helped test the API endpoints with Postman.</li>
+          <li className="text-center mx-auto">I collaborated with 3 teammates to create this at HackHarvard 2024 (patient safety track).</li>
+          <li className="mx-auto">Drug data was parsed from the official FDA website using Google Gemini for accurate info.</li>
+          <li className="mx-auto">After wrapping up the front-end, I helped test the API endpoints with Postman.</li>
           <div className="mt-3 mb-2 hover:underline">
             <a href="https://github.com/Givikap/Althea">Github repository</a>
           </div>
@@ -73,7 +74,7 @@ function Projects() {
       image: "/bearChatDemo.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-3">
+          <header className="text-white-500 text-6xl mb-3 mt-14">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             BearChat
           </header>
@@ -81,9 +82,9 @@ function Projects() {
           <i className="devicon-react-original text-4xl ml-5 mb-2"></i>
           <i className="devicon-nodejs-plain text-4xl ml-5 mb-2"></i>
           <i className="devicon-mongodb-plain text-4xl ml-5 mb-2"></i>
-          <li>This was my first web/full-stack project that I did to learn new things over summer 2024.</li>
-          <li>Created a real-time messaging app with user authentication and live status updates using Socket.io.</li>
-          <li>Used MongoDB for data storage and Express.js for the backend.</li>
+          <li className="mx-auto">This was my first web/full-stack project that I did to learn new things over summer 2024.</li>
+          <li className="mx-auto">Created a real-time messaging app with user authentication and live status updates using Socket.io.</li>
+          <li className="mx-auto">Used MongoDB for data storage and Express.js for the backend.</li>
           <div className="mt-3 mb-2 h hover:underline">
             <a href="https://github.com/honeydewdrop/BearChat-site">Github repository</a>
           </div>
@@ -96,7 +97,7 @@ function Projects() {
       image: "/PlayVaultDemo.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-4">
+          <header className="text-white-500 text-6xl mb-4 mt-10">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             PlayVault
           </header>
@@ -118,7 +119,7 @@ function Projects() {
       image: "/FPSGameDemo.png",
       description: (
         <>
-          <header className="text-white-500 text-6xl mb-3">
+          <header className="text-white-500 mb-3 text-6xl mt-20">
             <link rel="stylesheet" type='text/css' href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css" />
             FPS Game
           </header>
@@ -162,10 +163,12 @@ function Projects() {
         <div
           style={{
             position: "fixed",
-            top: "20vh",
-            left: "45vh",
-            width: "50%",
-            height: "55%",
+            width: "25em",
+            height: "30em",
+            inset: 0,
+            maxWidth: "100vw",
+            maxHeight: "100dvh",
+            margin: "auto",
             backgroundColor: "rgba(0, 0, 0, 0.8)",
             zIndex: 10,
           }}
@@ -173,10 +176,9 @@ function Projects() {
           <div
             style={{
               position: "absolute",
-              top: "50%",
-              left: "50%",
-              transform: "translate(-50%, -50%)",
+              fontSize: "1em",
               color: "white",
+              width: "100%",
               textAlign: "center",
             }}
           >
