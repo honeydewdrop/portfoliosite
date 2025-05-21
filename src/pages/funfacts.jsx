@@ -19,7 +19,7 @@ function FunFacts() {
           <li>I am originally from rural Arizona.</li>
           <li><u>I am MBTI INFJ-T and Enneagram 5w4.</u>
           <li>Besides English, my household language is Spanish.</li>
-          <span className="tooltip">I share these traits with Johan Liebert (Monster), Zelda (The Legend of Zelda), & Aurora (League of Legends).</span>
+          <span className="tooltip text-wrap">I share these traits with Johan Liebert (Monster), Zelda (The Legend of Zelda), & Aurora (League of Legends).</span>
           </li>
           <li>My favorite video games include League of Legends, The Legend of Zelda: Breath of the Wild, and Final Fantasy 6.</li>
         </ul>
