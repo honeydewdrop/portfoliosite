@@ -81,7 +81,7 @@ const Home = () => {
         <i className="devicon-java-plain text-5xl" ></i>
       </div>
       <div className="flex flex-row w-100" style={{ zIndex: 1 }}>
-        <div className="w-70 h-72 size-50 overflow-x-hidden rounded-full mt-8 ml-2">
+        <div className="w-70 h-72 size-50 overflow-x-hidden rounded-full mt-8">
           <img
             src="/meportfolio.png"
             alt="Samantha Adams"
